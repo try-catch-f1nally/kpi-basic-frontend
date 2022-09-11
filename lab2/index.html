@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <meta name="keywords" content="ІА-02, Кульбаневич Микита Сергійович, ЛР-2, Варіант-6">
+  <meta name="description"
+        content="Лабораторна робота #2: «Мова гіпертекстової розмітки сайту HTML-5. Таблиці. Каскадна таблиця стилів CSS-3»">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ІА-02 Кульбаневич М. С. ЛР-2 Варіант-6</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    table {
+      border: 1px solid #000000;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #000000;
+      padding: 0.2rem;
+      min-width: 3rem;
+      height: 1rem; /* for <td> it works like min-height */
+    }
+
+    tr:first-child {
+      background-color: #068f8f;
+      color: #000020;
+    }
+
+    tr:nth-child(2) {
+      background-color: #f5f506;
+      color: #0D0099;
+    }
+
+    tr:first-child:hover {
+      background-color: #000030;
+      color: #068f8f;
+    }
+
+    tr:nth-child(2):hover {
+      background-color: #0D0099;
+      color: #f5f506;
+    }
+  </style>
+</head>
+<body>
+<table>
+  <tr>
+    <th rowspan="2">Кульбаневич</th>
+    <th colspan="2">Микита</th>
+    <th>Сергійович</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td rowspan="2">ІА-02</td>
+    <td rowspan="2">ЛР №2</td>
+    <td rowspan="3">Варіант 6</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td rowspan="2"></td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+</table>
+
+<div class="devices">
+  <div class="device">
+    <div class="display display-position">
+      <div class="time time-position">12:00</div>
+    </div>
+    <div class="buttons buttons-position">
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+      <span class="button button-position"></span>
+    </div>
+  </div>
+
+  <div class="device">
+    <div class="display">
+      <div class="time time-transform">12:00</div>
+    </div>
+    <div class="buttons">
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+      <span class="button button-transform"></span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

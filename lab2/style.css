@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+.devices {
+  display: flex;
+}
+.device {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  width: 12rem;
+  height: 20rem;
+  padding: 0.8rem;
+  border: 0.2rem solid #000000;
+  border-radius: 2rem;
+  background-color: #d6e3ba;
+}
+.display {
+  height: 10rem;
+  background-color: #ffffff;
+  border: 0.2rem solid #000000;
+  border-radius: 1.6rem;
+  font-size: 3rem;
+}
+.buttons {
+  padding: 0.8rem;
+}
+.button {
+  background-color: #3f3151;
+  display: inline-block;
+  width: 2rem;
+  height: 1.8rem;
+  border: 0.2rem solid #000000;
+  border-radius: 50%;
+}
+
+/* POSITION METHOD */
+.buttons-position, .display-position {
+  position: relative;
+}
+.button-position, .time-position {
+  position: absolute;
+}
+.time-position {
+  top: 3.2rem;
+  left: 1.2rem;
+}
+.button-position:nth-child(1) {
+  left: 1rem;
+  top: 1rem;
+}
+.button-position:nth-child(2) {
+  left: 4rem;
+  top: 1rem;
+}
+.button-position:nth-child(3) {
+  right: 1rem;
+  top: 1rem;
+}
+.button-position:nth-child(4) {
+  left: 1rem;
+  top: 3.5rem;
+}
+.button-position:nth-child(5) {
+  left: 4rem;
+  top: 3.5rem;
+}
+.button-position:nth-child(6) {
+  right: 1rem;
+  top: 3.5rem;
+}
+.button-position:nth-child(7) {
+  left: 1rem;
+  top: 6rem;
+}
+.button-position:nth-child(8) {
+  left: 4rem;
+  top: 6rem;
+}
+.button-position:nth-child(9) {
+  right: 1rem;
+  top: 6rem;
+}
+
+/* Transform method */
+.time-transform {
+  transform: translate(1.2rem, 3.2rem);
+}
+.button-transform:nth-child(1) {
+  transform: translate(0.2rem, 0.2rem);
+}
+.button-transform:nth-child(2) {
+  transform: translate(1rem, 0.2rem);
+}
+.button-transform:nth-child(3) {
+  transform: translate(1.8rem, 0.2rem);
+}
+.button-transform:nth-child(4) {
+  transform: translate(0.2rem, 0.6rem);
+}
+.button-transform:nth-child(5) {
+  transform: translate(1rem, 0.6rem);
+}
+.button-transform:nth-child(6) {
+  transform: translate(1.8rem, 0.6rem);
+}
+.button-transform:nth-child(7) {
+  transform: translate(0.2rem, 1rem);
+}
+.button-transform:nth-child(8) {
+  transform: translate(1rem, 1rem);
+}
+.button-transform:nth-child(9) {
+  transform: translate(1.8rem, 1rem);
+}
