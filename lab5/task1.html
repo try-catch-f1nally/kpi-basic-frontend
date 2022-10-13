@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <meta name="keywords" content="ІА-02, Кульбаневич Микита Сергійович, ЛР-5, Варіант-6">
+  <meta name="description" content="Лабораторна робота #5">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ІА-02 Кульбаневич М. С. ЛР-5 Завдання-1 Варіант-6</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/background.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?amily=Space+Mono&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+<form class="form">
+  <div>
+    <label for="surname-and-initials">Surname and Initials</label>
+    <input type="text" name="surname-and-initials" id="surname-and-initials">
+    <div class="validation-text d-none">Please enter surname with initials in such format: TTTTTT T. T.</div>
+  </div>
+  <div>
+    <label for="date-of-birth">Date of Birth</label>
+    <input type="text" name="date-of-birth" id="date-of-birth">
+    <div class="validation-text d-none">Please enter birthdate in such format: NN.NN.NNNN</div>
+  </div>
+  <div>
+    <label for="address">Address</label>
+    <input type="text" name="address" id="address">
+    <div class="validation-text d-none">Please enter address in such format: м. NNNNNNN</div>
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    <div class="validation-text d-none">Please enter email in such format: TTTTTTT@TTTT.com</div>
+  </div>
+  <div>
+    <label for="telegram">Telegram</label>
+    <input type="text" name="telegram" id="telegram">
+    <div class="validation-text d-none">Please enter telegram in such format: @T_TTTTTT</div>
+  </div>
+  <button type="submit">SUBMIT</button>
+</form>
+<section id="result" class="d-none">
+<h2>Entered valid form data:</h2>
+  <div>
+    <span>Surname and Initials:</span>
+    <span id="surname-and-initials-result"></span>
+  </div>
+  <div>
+    <span>Date of Birth:</span>
+    <span id="date-of-birth-result"></span>
+  </div>
+  <div>
+    <span>Address:</span>
+    <span id="address-result"></span>
+  </div>
+  <div>
+    <span>Email</span>
+    <span id="email-result"></span>
+  </div>
+  <div>
+    <span>Telegram:</span>
+    <span id="telegram-result"></span>
+  </div>
+</section>
+<script src="js/task1.js"></script>
+</body>
+</html>
