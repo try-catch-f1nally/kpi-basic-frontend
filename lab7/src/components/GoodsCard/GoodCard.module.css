@@ -1,0 +1,23 @@
+.good-card {
+  width: 300px;
+  margin: 1rem;
+  background: #1d1d1d;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #eeeeee;
+}
+
+.good-card__image {
+  max-width: 100%;
+}
+
+.good-card__title {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.good-card__price {
+  margin-top: 0.2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
